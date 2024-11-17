@@ -1,0 +1,76 @@
+/* Estilo para el body */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+    background: linear-gradient(
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(0, 0, 0, 0.3) 100%),
+        url(assets/claro.avif) no-repeat center center;
+    background-size: cover;
+}
+
+/* Estilo para el contenedor */
+.Form-text {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    url(assets/abstract-template-blue-background-white-squares-free-vector.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra internamente los elementos en el eje vertical */
+    align-items: center; /* Centra internamente los elementos en el eje horizontal */
+    width: 400px;
+    padding: 20px; /* Espaciado interno */
+    padding-top: 200px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Sombra difusa */
+    flex-wrap: nowrap;
+}
+
+
+.Form-text-input{
+    border: 2px solid black;
+    align-items: center;
+    height: 30px;
+    width: 350px;
+    margin: 10px;
+    margin-bottom: 25px;
+    position: relative;
+    top: -140px; 
+    background-color: rgb(230, 255, 255);
+    font-weight: 800;
+    border-radius: 10px;
+
+}
+
+.Form-text-tittle {
+    position: relative;
+    top: -180px; /* Mueve el título hacia arriba */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Form-text-olv{
+    position: relative;
+    top: -140px;
+    font-weight: 800;
+    color: black;
+}
+.Form-text-olv:hover{
+    color:  rgb(42, 141, 233);
+}
+
+.Form-text-submit{
+    position: relative;
+    top: -80px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px ;
+    background-color: rgb(29, 231, 238);
+}
+
+.Form-text-submit:hover{
+    background-color:  rgb(42, 141, 233);
+}
